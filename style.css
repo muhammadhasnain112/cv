@@ -116,8 +116,12 @@ span {
 
 #span {
     text-decoration: underline;
+    
 }
-
+#span>a{
+    text-decoration: none;
+    color: #C65B6B;
+}
 .p1 {
     line-height: 7vh;
     font-size: 4vh;
