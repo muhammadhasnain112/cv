@@ -503,8 +503,10 @@ article {
     height: 1vh;
     width: 29vw;
     border-radius: 10px;
+    
 
 }
+
 
 .loading {
     margin-top: 1.5vh;
@@ -517,12 +519,17 @@ article {
     width: 75%;
     border-radius: 10px;
     background-color: #2C98F0;
+
 }
 
 .span4 {
     position: absolute;
-    top: 558.8vh;
+    top: 558.8%;
     left: 52vw;
+    /* margin-top: 10vh; */
+    /* margin-left: 20vw; */
+
+    /* z-index: 10; */
     height: 10px;
     width: 10px;
     background-color: #2C98F0;
@@ -531,13 +538,20 @@ article {
 
 .loading3 {
     height: 1vh;
+    display: flex;
+    /* display: flex; */
+
+    
+    /* justify-content: flex-start; */
+    /* margin-right: ; */
+    /* align-items: center; */
     width: 60%;
     border-radius: 10px;
     background-color: #EC5453;
 }
 
 .span5 {
-    position: absolute;
+    position:absolute;
     top: 558.8vh;
     left: 83.5vw;
     height: 10px;
@@ -955,7 +969,7 @@ small {
     margin-top: 7vh;
     margin-left: 2vw;
     text-decoration: none;
-    color: #396CE8;
+    color: #EC5453;
 }
 
 .globe1 {
@@ -970,7 +984,7 @@ small {
     margin-top: 7vh;
     margin-left: 2vw;
     text-decoration: none;
-    color: #396CE8;
+    color: #EC5453;
 }
 
 input {
@@ -992,11 +1006,15 @@ textarea {
     border: none;
     background-color: #F2F3F7;
 }
+.png{
+    /* filter: drop-shadow(0px 0px 10px grey ); */
+    box-shadow: #21DFB1;
+}
 
 form>button {
     height: 6vh;
     width: 10vw;
-    background-color: #396CE8;
+    background-color: #EC5453;
     border: none;
     margin-top: 1vh;
     border-radius: 4px;
@@ -1004,4 +1022,7 @@ form>button {
 
     /* font-size: 2vh; */
 
+}
+.phonecall{
+   fill: #2C98F0; color: #21DFB1;
 }
